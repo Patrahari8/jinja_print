@@ -4,3 +4,7 @@ from django.shortcuts import render
 def data_render(request):
     d={'name':'hari','pro':'python developer','age':22}
     return render(request,'data_render.html',context=d)
+
+def if_else(request):
+    d={'a':100,'b':20}
+    return render(request,'if_else.html',context=d)
