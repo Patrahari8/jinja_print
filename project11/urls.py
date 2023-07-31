@@ -24,4 +24,5 @@ urlpatterns = [
     path('if_else/',if_else,name='if_else'),
     path('if_elif/',if_elif,name='if_elif'),
     path('nested_if/',nested_if,name='nested_if'),
+    path('jinja_for/',jinja_for,name='jinja_for'),
 ]

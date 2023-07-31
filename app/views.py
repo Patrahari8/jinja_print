@@ -16,3 +16,7 @@ def if_elif(request):
 def nested_if(request):
     d={'a':100,'b':20,'c':50}
     return render(request,'nested_if.html',context=d)
+
+def jinja_for(request):
+    d={'name':'hari','hobbies':['badminton','drawing']}
+    return render(request,'jinja_for.html',context=d)
